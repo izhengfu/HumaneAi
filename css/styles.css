@@ -54,8 +54,12 @@ margin: 0 auto;
 .relleno{
     position: absolute;
     top: 47em;
-    width: 60%;
-    left: 12em;
+    /*width: 60%;*/
+   /* left: 12em;*/
+   left: 0; 
+   right: 0; 
+   margin-left: auto; 
+   margin-right: auto; 
 }
 .card{
     background-color: #ABABAB;
@@ -217,8 +221,9 @@ h3{
 
 .larga img{
     width: auto;
-    height: 37em;
-    border-radius: 10px;
+    height: 39em;
+    object-fit: cover;
+    border-radius: 5px;
 }
 .larga *{
     margin-bottom: 0;
