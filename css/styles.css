@@ -10,15 +10,19 @@ nav{
     display: flex;
     align-items: baseline;
     margin: 0;
-    background-color: #000000;
+    background-color: #000000 ;
     justify-content: space-between;
     z-index: 10000;
     position: fixed;
     top: 0px;
     width: 95%;
 
-}
 
+}
+main{
+    text-align: justify;
+    line-height: 1.2;
+}
 
 .titulo{
     font-size: xx-large;
@@ -28,11 +32,7 @@ a{
     text-decoration: none;
     color: white;
 }
-li:hover{
-    color: #ABABAB;
-    transition: 0.5s ease;
-    
-}
+
 .navlinks{
     display: flex;
     justify-content: space-between;
@@ -41,7 +41,7 @@ li:hover{
     margin-left: 1.3em;
     list-style: none;
 }
-a:hover{
+.navlinks a:hover{
     color: #ABABAB;
     transition: ease-in 0.3s;
 }
@@ -127,8 +127,13 @@ h2{
 p{
 font-size: 1.2em;;
 font-weight: normal;
-
 }
+.cuadroMotivos{
+display: flex;
+justify-content: space-around;
+}
+
+
 .elementos{
     width: 60%;
     margin: 0 auto;
@@ -136,9 +141,11 @@ font-weight: normal;
 
 .elemento{
     display: flex;
+    border-radius: 5px;
+    border: white solid 1px;
     align-items: center;
-    margin:0;
     padding: 0;
+    margin: 1em;
 
 }
 .elemento *{
@@ -263,16 +270,32 @@ h3{
 }
 
 .fuentes a{
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .fuentes li{
-    list-style: decimal;
+    padding: 1em;
+    list-style: none;
+    color: rgb(171, 171, 171);
+    border: white solid 1px;
+
+    border-radius: 10px;
+    height: 1em;
+    margin-left: 0;
     margin-bottom: 1em;
+    margin-left: 0;
+}
+
+.fuentes li:hover{
+    background-color: #313131;
+    transition: ease-in 0.3s;
+
+
 }
 footer{
-    height: 25em;
-    background-color: #0c0c0c;
-    padding: 2em;
+    padding: 3em;
     padding-top: 0.1em;
+    background-color: #1b1b1b;
+    text-align: center;
 }
+
