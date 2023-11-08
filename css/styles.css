@@ -33,6 +33,10 @@ li:hover{
     margin-left: 1.3em;
     list-style: none;
 }
+a:hover{
+    color: #ABABAB;
+    transition: ease-in 0.3s;
+}
 header{
     margin-bottom: 0;
     width: 100%;
@@ -49,8 +53,9 @@ margin: 0 auto;
 
 .relleno{
     position: absolute;
-    top: 43em;
-    left: 7em;
+    top: 47em;
+    width: 60%;
+    left: 12em;
 }
 .card{
     background-color: #ABABAB;
@@ -190,6 +195,7 @@ h3{
 
 .funciones{
     display: flex;
+    align-items: flex-start;
 
 }
 
@@ -199,7 +205,7 @@ h3{
 
 .larga{
     background-color: white;
-    height: 40em;
+    height: 45em;
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -221,11 +227,12 @@ h3{
 
 .alargada{
     background-color: white;
-    height: 16em;
+    height: 20em;
     display: flex;
     flex-direction: column;
     padding: 2.5em;
     justify-content: center;
+    align-items: start;
     border-radius: 20px;
     color: black; 
 }
