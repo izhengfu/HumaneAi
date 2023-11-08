@@ -10,7 +10,7 @@ nav{
     display: flex;
     align-items: baseline;
     margin: 0;
-    background-color: #060606;
+    background-color: #000000;
     justify-content: space-between;
     z-index: 10000;
     position: fixed;
@@ -60,7 +60,7 @@ margin: 0 auto;
 
 .relleno{
     position: absolute;
-    top: 47em;
+    top: 41em;
     /*width: 60%;*/
    /* left: 12em;*/
    left: 0; 
