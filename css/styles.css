@@ -9,9 +9,17 @@ nav{
     padding-left:1.5em ;
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
     margin: 0;
+    background-color: #060606;
+    justify-content: space-between;
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 95%;
+
 }
+
+
 .titulo{
     font-size: xx-large;
     font-weight: bold;
@@ -27,7 +35,7 @@ li:hover{
 }
 .navlinks{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .navlinks li{
     margin-left: 1.3em;
@@ -40,7 +48,6 @@ a:hover{
 header{
     margin-bottom: 0;
     width: 100%;
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
