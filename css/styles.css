@@ -148,6 +148,9 @@ justify-content: space-around;
     margin: 1em;
 
 }
+.elemento p{
+    font-size: medium;
+}
 .elemento *{
     margin-left: 0.7em;
     font-size: 1.4em;
